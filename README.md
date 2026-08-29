@@ -26,6 +26,7 @@ schedule so security updates land without a commit.
 | :-- | :-- |
 | **[home-assistant-apps](https://github.com/shuricksumy/home-assistant-apps)** | Add-ons that put services running on *other* hardware back in your sidebar, over Ingress. |
 | **[wled-gateway-addon](https://github.com/shuricksumy/wled-gateway-addon)** | One WLED live-preview connection per device, fanned out to unlimited dashboard viewers. |
+| **[hass-ledfx](https://github.com/shuricksumy/hass-ledfx)** | Every LedFx virtual becomes a light, with its effects, presets and colour patterns. Continues [dmamontov/hass-ledfx](https://github.com/dmamontov/hass-ledfx), rewritten for the LedFx 2.x API. |
 
 ### 🤖 LLM tooling
 
