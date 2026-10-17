@@ -39,6 +39,7 @@ schedule so security updates land without a commit.
 
 | Project | |
 | :-- | :-- |
+| **[authelia-webui](https://github.com/shuricksumy/authelia-webui)** | Authelia Configurator: a web UI for Authelia's access rules, OIDC clients, users and signing keys. Every change is validated, committed to git, and rolled back automatically if Authelia doesn't come back healthy. |
 | **[openvpn-ui](https://github.com/shuricksumy/openvpn-ui)** · **[docker-wgdashboard](https://github.com/shuricksumy/docker-wgdashboard)** | VPN management, containerised. |
 
 ---
