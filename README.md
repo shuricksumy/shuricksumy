@@ -32,6 +32,7 @@ schedule so security updates land without a commit.
 
 | Project | |
 | :-- | :-- |
+| **[mcp-manager](https://github.com/shuricksumy/mcp-manager)** | Run all your stdio MCP servers in one container and reach each one over HTTP. A web page to add, monitor and restart them one at a time, with per-server memory limits. One broken server never takes the others down. |
 | **[MCP-MusicAssistant](https://github.com/shuricksumy/MCP-MusicAssistant)** | An MCP server for Music Assistant — ask for music in a sentence, not an API call. |
 | **[frigate-yard-stats](https://github.com/shuricksumy/frigate-yard-stats)** | Turns Frigate events into readable yard activity and vehicle reports. |
 
