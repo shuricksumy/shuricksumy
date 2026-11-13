@@ -42,6 +42,7 @@ schedule so security updates land without a commit.
 | :-- | :-- |
 | **[authelia-webui](https://github.com/shuricksumy/authelia-webui)** | Authelia Configurator: a web UI for Authelia's access rules, OIDC clients, users and signing keys. Every change is validated, committed to git, and rolled back automatically if Authelia doesn't come back healthy. |
 | **[openvpn-ui](https://github.com/shuricksumy/openvpn-ui)** · **[docker-wgdashboard](https://github.com/shuricksumy/docker-wgdashboard)** | VPN management, containerised. |
+| **[wgdashboard-stats](https://github.com/shuricksumy/wgdashboard-stats)** | Per-peer traffic reports for WGDashboard: pick any date range and see who sent and received what, with a daily chart and CSV export. Built on the snapshots WGDashboard already records, read-only. |
 
 ---
 
