@@ -1,11 +1,24 @@
 ## Hi, I'm Oleksandr 👋
 
 I build small, self-hosted pieces that make hardware I already own work better
-together — mostly **home audio**, **Home Assistant**, and lately **LLM tooling**.
+together — mostly **a homelab gateway**, **home audio**, **Home Assistant**, and lately **LLM tooling**.
 Everything below is Docker-first, multi-arch (amd64 + arm64), and rebuilt on a
 schedule so security updates land without a commit.
 
 ---
+
+### 🚪 Homelab gateway
+
+> **[Homelab Gateway Stack](https://github.com/shuricksumy/homelab-gateway-stack)** — start here.
+> Home services on the internet without opening a port at home: one cloud server with Traefik,
+> Authelia and CrowdSec in front, a VPN for your devices, and two tunnels home that take over from
+> each other. Described in one profile file, set up by one script.
+
+| Project | |
+| :-- | :-- |
+| **[trapdoor](https://github.com/shuricksumy/trapdoor)** | A web UI for your own OpenVPN, WireGuard and AmneziaWG servers, on one machine or many: clients, QR codes, traffic history, access rules, backups. |
+| **[authelia-webui](https://github.com/shuricksumy/authelia-webui)** | Authelia Configurator: a web UI for Authelia's access rules, OIDC clients, users and signing keys. Every change is validated, committed to git, and rolled back automatically if Authelia doesn't come back healthy. |
+| **[foyer](https://github.com/shuricksumy/foyer)** | A config-driven start page: a sidebar of your services that open in a pane next to it. |
 
 ### 🎵 Home audio
 
@@ -40,8 +53,7 @@ schedule so security updates land without a commit.
 
 | Project | |
 | :-- | :-- |
-| **[authelia-webui](https://github.com/shuricksumy/authelia-webui)** | Authelia Configurator: a web UI for Authelia's access rules, OIDC clients, users and signing keys. Every change is validated, committed to git, and rolled back automatically if Authelia doesn't come back healthy. |
-| **[openvpn-ui](https://github.com/shuricksumy/openvpn-ui)** · **[docker-wgdashboard](https://github.com/shuricksumy/docker-wgdashboard)** | VPN management, containerised. |
+| **[openvpn-ui](https://github.com/shuricksumy/openvpn-ui)** · **[docker-wgdashboard](https://github.com/shuricksumy/docker-wgdashboard)** | VPN management, containerised. Succeeded by [trapdoor](https://github.com/shuricksumy/trapdoor). |
 | **[wgdashboard-stats](https://github.com/shuricksumy/wgdashboard-stats)** | Per-peer traffic reports for WGDashboard: pick any date range and see who sent and received what, with a daily chart and CSV export. Built on the snapshots WGDashboard already records, read-only. |
 
 ---
